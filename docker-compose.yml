@@ -1,0 +1,13 @@
+services:
+  app:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: my-portfolio:latest
+    ports:
+      - "3000:3000"
+    env_file:
+      - .env
+    restart: always
+
+# Note: All EmailJS environment variables are passed via the .env file mapping

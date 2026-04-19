@@ -1,0 +1,16 @@
+# Build artifacts
+.next
+node_modules
+
+# Docker files
+Dockerfile
+docker-compose.yml
+.dockerignore
+
+# Git files
+.git
+.gitignore
+
+# Environment files
+.env
+.env.local
