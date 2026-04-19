@@ -44,7 +44,7 @@ export default function HeroSection() {
       >
         <motion.div variants={itemVariants} className="mb-6">
           <span className="text-xs md:text-sm font-semibold tracking-widest uppercase text-gray-500">
-            Independent IT Consultant & Developer
+            Equinox Builds | Engineering Excellence
           </span>
         </motion.div>
 

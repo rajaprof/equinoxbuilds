@@ -10,7 +10,7 @@ export default function Footer() {
               Ready to eliminate friction?
             </h2>
             <p className="text-gray-400 text-sm leading-relaxed mb-6">
-              Available for freelance consulting, architecture design, and full-stack development. Let us build something that scales.
+              Equinox Builds is available for freelance consulting, architecture design, and full-stack development. Let us build something that scales.
             </p>
             <a
               href="mailto:time.to.get.rich.com@gmail.com"
@@ -37,7 +37,7 @@ export default function Footer() {
         </div>
 
         <div className="flex flex-col sm:flex-row justify-between items-center pt-8 border-t border-gray-800 text-xs text-gray-500">
-          <p>&copy; {currentYear} Independent IT Consultant. All rights reserved.</p>
+          <p>&copy; {currentYear} Equinox Builds. All rights reserved.</p>
 
           <div className="flex items-center gap-4 mt-4 sm:mt-0">
             <span>Based in Tamil Nadu, India</span>
