@@ -11,12 +11,21 @@ I have successfully initialized your Git repository and pushed the code to GitHu
 
 ### 2. Branding & Metadata
 - Updated company name to **Equinox Builds** across the codebase.
-- Added SEO metadata to `layout.tsx` (title and description) for better search ranking.
+- Added SEO metadata to `layout.tsx` (title and description) and configured a **Canonical URL**.
 - Updated `HeroSection`, `Footer`, `package.json`, and `docker-compose.yml`.
 
-### 3. GitHub Push
+### 3. Stat-Brio Portfolio Update
+- Replaced the *Hydro NAVAX* project with **Stat-Brio**.
+- Authored compelling copy highlighting your **100% ownership** of the project—from design and development to final deployment.
+- Integrated your custom `stat-brio.png` mockup.
+
+### 4. SEO Automation
+- Integrated `next-sitemap` for automatic generation of `sitemap.xml` and `robots.txt`.
+- Configured a `postbuild` script in `package.json` to ensure SEO files are always up-to-date after every Vercel build.
+
+### 5. GitHub Push
 - Connected the local repository to your remote: `https://github.com/rajaprof/equinoxbuilds`.
-- Pushed the codebase and subsequent branding updates to the `main` branch.
+- Pushed all updates to the `main` branch, triggering an automatic Vercel deployment.
 
 ## Final Steps for Deployment
 
