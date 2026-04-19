@@ -1,0 +1,9 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://equinoxbuilds.vercel.app
+
+# Sitemaps
+Sitemap: https://equinoxbuilds.vercel.app/sitemap.xml

@@ -5,8 +5,19 @@ import './globals.css';
 import { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: 'Equinox Builds | High-Performance Digital Solutions',
-  description: 'Equinox Builds specializes in engineering digital solutions that eliminate friction. From high-performance web applications to custom data-processing architecture.',
+  metadataBase: new URL('https://equinoxbuilds.vercel.app'),
+  title: 'Equinox Builds | End-to-End Digital Engineering',
+  description: 'Equinox Builds specializes in high-performance digital solutions, from UI/UX architecture to seamless cloud deployment.',
+  alternates: {
+    canonical: '/',
+  },
+  openGraph: {
+    title: 'Equinox Builds',
+    description: 'Engineering excellence from design to deployment.',
+    url: 'https://equinoxbuilds.vercel.app',
+    siteName: 'Equinox Builds',
+    type: 'website',
+  },
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {

@@ -30,16 +30,16 @@ const PROJECTS = [
     image: '/projects/header-cleaner.png'
   },
   {
-    id: 'hydro-navax',
-    title: 'Hydro NAVAX',
-    role: 'Design Consulting & UI Redesign',
-    description: 'Provided strategic design consulting and executed a targeted UI/UX overhaul for key company pages. Focused on modernizing the digital footprint, ensuring mobile responsiveness, and eliminating user friction.',
-    metricLabel: 'Visual Overhaul',
+    id: 'stat-brio',
+    title: 'Stat-Brio',
+    role: 'Lead Product Engineer',
+    description: 'A high-performance business intelligence platform designed to turn complex data into actionable insights. I spearheaded the entire project lifecycle—engineering everything from the initial UI/UX architecture to full-stack development and cloud deployment.',
+    metricLabel: 'Project Lifecycle',
     metricNumber: 100,
-    metricSuffix: '% Responsive',
-    metricContext: 'Modernized core workflows and aesthetics',
-    techStack: ['UI/UX Consulting', 'Figma', 'Web Design'],
-    image: '/projects/hydro-navax.png'
+    metricSuffix: '% Ownership',
+    metricContext: 'Design, Development, and Deployment (End-to-End)',
+    techStack: ['Next.js', 'Business Intelligence', 'Cloud Deployment'],
+    image: '/projects/stat-brio.png'
   },
   {
     id: 'cipher-saver',
